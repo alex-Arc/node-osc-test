@@ -1,0 +1,14 @@
+{
+  "name": "node-osc-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jsfuzz fuzz_decode.js corpus"
+  },
+  "author": "",
+  "dependencies": {
+    "jsfuzz": "^1.0.15",
+    "node-osc": "^9.0.1"
+  }
+}
